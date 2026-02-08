@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  transition: background 1s ease;
+}
+
+.app {
+  text-align: center;
+  color: #ffs;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+#moodText {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* Mood Colors */
+.morning { background: linear-gradient(120deg, #ffcc00, #ff9966); }
+.afternoon { background: linear-gradient(120deg, #4db8ff, #00cc99); }
+.evening { background: linear-gradient(120deg, #ff6699, #cc33ff); }
+.night { background: linear-gradient(120deg, #000428, #004e92); }
